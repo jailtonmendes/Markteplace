@@ -202,9 +202,25 @@ img {
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 30px;
+    height: 40px;
     margin: 10px auto;
 
+    background-color: #91f1ae;
+    color: rgb(44, 43, 43);
+    transition: 400ms;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+.btn-comprar:hover {
+    background-color: #5ab174;
 }
 
 
