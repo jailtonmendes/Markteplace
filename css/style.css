@@ -30,6 +30,13 @@ img {
 
 /*Superinfo*/
 
+.logo {
+    width: 30%;
+    height: 30%;
+
+   
+}
+
 .superinfo-bg {
     background: #d36fc2;
     color: white;
