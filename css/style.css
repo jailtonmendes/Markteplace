@@ -31,17 +31,23 @@ img {
 /*Superinfo*/
 
 .logo {
-    width: 30%;
-    height: 30%;
+    display: flex;
+
+    width: 50%;
+    height: 50%;
+
+    margin-left: 50px;
 
    
 }
 
+/*
 .superinfo-bg {
     background: #d36fc2;
     color: white;
     display: flex;
 }
+*/
 
 .superinfo {
     max-width: 960px;
@@ -70,11 +76,11 @@ img {
 /*Menu*/
 
 .menu-bg {
-    background: #d36fc2;
+    background: #ffffff;
 }
 
 .menu {
-    max-width: 960px;
+    max-width: ;
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
@@ -85,18 +91,25 @@ img {
 }
 
 .menu a {
-    color: white;
+    color: rgb(223, 14, 14);
 }
 
-.menu-logo a {
-    font-size: 2.25em;
-    font-weight: bold;
-    margin: 0 10px;
+.menu-logo {
+    display: flex;
+       
 }
+
 
 .menu-nav ul {
     display: flex;
     flex-wrap: wrap;
+
+    flex: 1;
+
+    margin-right: 100px;
+    font-size: 25px;
+   
+   
 }
 
 .menu-nav a {
