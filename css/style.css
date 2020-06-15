@@ -30,11 +30,21 @@ img {
 
 /*Superinfo*/
 
+.logo {
+    display: flex;
+
+    width: 40%;
+    height: 40%;
+   
+}
+
+/*
 .superinfo-bg {
     background: #d36fc2;
     color: white;
     display: flex;
 }
+*/
 
 .superinfo {
     max-width: 960px;
@@ -63,33 +73,44 @@ img {
 /*Menu*/
 
 .menu-bg {
-    background: #d36fc2;
+    background: #e9c4dd;
+
+    box-shadow: #888 0px 4px 6px;
+
+    
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+       
+  
 }
 
-.menu {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-   
-}
+
 
 .menu a {
-    color: white;
+    color: rgb(241, 238, 238);
+       
 }
 
-.menu-logo a {
-    font-size: 2.25em;
-    font-weight: bold;
-    margin: 0 10px;
+.menu-logo {
+    display: flex;
+    margin-left: 20px;
+               
 }
+
 
 .menu-nav ul {
     display: flex;
     flex-wrap: wrap;
+
+    flex: 1;
+
+    margin-right: 100px;
+    font-size: 20px;    
 }
 
 .menu-nav a {
@@ -99,7 +120,7 @@ img {
 }
 
 .menu-nav a:hover {
-    color: #122ab2;
+    color: #030302;
 }
 
 /*Introdução*/
@@ -108,7 +129,7 @@ img {
     font-size: 2.2em;
     line-height: 1;
     max-width: 960px;
-    margin: 30px auto;
+    margin: 80px auto;
     padding: 60px 10px;
     text-align: center;
     color: #4d414a;
@@ -175,13 +196,23 @@ img {
     margin: 10px;
 }
 
-.produtos-item h2 {
+.produtos-item img {
+    
+   border-radius: 50%;
+   margin-top: 20px;
+
+    
+}
+
+/*
+.produtos-item h2 {        Texto em Cima das imagens do produto
     font-size: 2em;
     color: #a4a4a4;
     background: #f7f7f7;
     padding: 20px 20px;
     text-align: center;
 }
+*/
 
 
 .purple {
@@ -204,13 +235,15 @@ img {
     width: 80%;
     height: 40px;
     margin: 10px auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
 
     background-color: #91f1ae;
-    color: rgb(44, 43, 43);
+    color: white;
     transition: 400ms;
 
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
 
     border: none;
     border-radius: 8px;
@@ -301,6 +334,19 @@ img {
     padding: 15px 0;
     text-align: center;
 }
+
+
+/*           IMAGEM DO WHATSAPP FIXA NA PÁGINA
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    left: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+*/
+
+
 
 @media (max-width: 800px) {
     .preco {
@@ -425,6 +471,28 @@ img {
     padding: 15px 10px;
 }
 
+
+@media (max-width: 830px) {
+    .menu-nav {
+        margin: 0 auto;
+        min-width: 450px;
+    }
+    .menu-logo{
+        margin: 0 auto;
+        justify-content: center;
+
+        margin-bottom: 20px;
+    }
+
+    .menu-nav ul{
+       justify-content: center;
+
+       margin: 0 auto;
+    }
+    
+}
+
+
 @media (max-width: 600px) {
     .newsletter-form button {
         font-size: 1.5em;
@@ -435,7 +503,7 @@ img {
 
 .footer {
     display: flex;
-    background: #d36fc2;
+    background: #dba5c9;
     height: 100px;
     align-items: center;
 }
@@ -443,23 +511,6 @@ img {
 .footer p {
     flex: 1;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
