@@ -75,18 +75,16 @@ img {
 .menu-bg {
     background: #e9c4dd;
 
-    box-shadow: #888 0px 4px 6px;
-
-    
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 20px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+    box-shadow: rgb(185, 185, 185) 0px 4px 6px;
+   
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
        
-  
 }
 
 
@@ -98,7 +96,7 @@ img {
 
 .menu-logo {
     display: flex;
-    margin-left: 20px;
+    margin-left: 140px;
                
 }
 
@@ -109,7 +107,7 @@ img {
 
     flex: 1;
 
-    margin-right: 100px;
+    margin-right: 20px;
     font-size: 20px;    
 }
 
@@ -472,7 +470,7 @@ img {
 }
 
 
-@media (max-width: 830px) {
+@media (max-width: 840px) {
     .menu-nav {
         margin: 0 auto;
         min-width: 450px;
