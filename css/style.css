@@ -7,7 +7,7 @@ body {
     
     font-family: 'Courgette', cursive;
     color: #222222;
-    background-color: #fffafa;
+    background-color: white;
 }
 
 ul {
@@ -45,6 +45,22 @@ img {
     display: flex;
 }
 */
+.presentei {
+    width: 40%;
+    height: 40%;
+
+    margin: 0px auto;
+
+    padding-top: 20px;
+
+}
+
+.logo2 {
+    max-width: 960px;
+    background-color: rgba(134, 73, 119, 0.527);
+    margin: 0 auto;
+    margin-top: 0px;
+}
 
 .superinfo {
     max-width: 960px;
@@ -73,7 +89,8 @@ img {
 /*Menu*/
 
 .menu-bg {
-    background: #e9c4dd;
+    /**background: #e9c4dd;**/
+    background-color: white;
 
     box-shadow: rgb(185, 185, 185) 0px 4px 6px;
    
@@ -107,9 +124,17 @@ img {
 
     flex: 1;
 
-    margin-right: 20px;
-    font-size: 20px;    
+    margin-right: 50px;
+    font-size: 18px;    
 }
+
+.menu-nav li{
+    background-color: turquoise;
+    margin-right: 10px;
+
+   border-bottom-right-radius: 8px;
+ }
+
 
 .menu-nav a {
     font-size: 1.25em;
@@ -117,8 +142,12 @@ img {
     padding: 10px;
 }
 
+.menu-nav a {
+    color: white;
+}
+
 .menu-nav a:hover {
-    color: #030302;
+    color: rgb(110, 7, 110);
 }
 
 /*Introdução*/
@@ -196,9 +225,8 @@ img {
 
 .produtos-item img {
     
-   border-radius: 50%;
+   border-radius: 0%;
    margin-top: 20px;
-
     
 }
 
@@ -236,7 +264,7 @@ img {
     margin-top: 20px;
     margin-bottom: 50px;
 
-    background-color: #91f1ae;
+    background-color: turquoise;
     color: white;
     transition: 400ms;
 
@@ -247,11 +275,15 @@ img {
     border-radius: 8px;
 
     cursor: pointer;
+    outline: none;
+    
 
 }
 
 .btn-comprar:hover {
-    background-color: #5ab174;
+    background-color: #e43a3ab6;
+    outline: none;
+    
 }
 
 
@@ -331,6 +363,14 @@ img {
     font-size: 2.25em;
     padding: 15px 0;
     text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    background: #797676;
+    height: 100px;
+    align-items: center;
 }
 
 
@@ -487,7 +527,7 @@ img {
 
        margin: 0 auto;
     }
-    
+
 }
 
 
@@ -499,12 +539,6 @@ img {
 
 /*Footer*/
 
-.footer {
-    display: flex;
-    background: #dba5c9;
-    height: 100px;
-    align-items: center;
-}
 
 .footer p {
     flex: 1;
