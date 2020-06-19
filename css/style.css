@@ -60,6 +60,7 @@ img {
     background-color: rgba(134, 73, 119, 0.527);
     margin: 0 auto;
     margin-top: 0px;
+    margin-bottom: 70px;
 }
 
 .superinfo {
@@ -223,10 +224,11 @@ img {
     margin: 10px;
 }
 
-.produtos-item img {
+.produtos-img {
     
-   border-radius: 0%;
-   margin-top: 20px;
+   height: 200px;
+   width: 200px;
+   margin: 0 auto;
     
 }
 
@@ -262,9 +264,11 @@ img {
     height: 40px;
     margin: 10px auto;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 
-    background-color: turquoise;
+   /* background-color: turquoise;*/
+   background-color: rgba(218, 92, 92, 0.842);;
+
     color: white;
     transition: 400ms;
 
@@ -281,9 +285,44 @@ img {
 }
 
 .btn-comprar:hover {
-    background-color: #e43a3ab6;
+    /*background-color: rgb(58, 177, 165);*/
+    background-color: rgba(218, 92, 92, 0.979);;
     outline: none;
     
+}
+
+.add-cart {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin: 10px auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    /*background-color: rgba(218, 92, 92, 0.726);*/
+    background-color: rgb(178, 187, 186);
+    color: rgb(255, 255, 255);
+    transition: 400ms;
+
+    font-weight: bold;
+    font-size: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+    outline: none;
+
+    padding: 10px;
+}
+
+.img-cart {
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -368,10 +407,13 @@ img {
 
 .footer {
     display: flex;
-    background: #797676;
+    background: turquoise;
     height: 100px;
     align-items: center;
+    
 }
+
+
 
 
 /*           IMAGEM DO WHATSAPP FIXA NA PÁGINA
@@ -544,5 +586,5 @@ img {
     flex: 1;
     text-align: center;
     font-size: 1.1em;
-    color: white;
+    color: rgb(44, 43, 41);
 }
